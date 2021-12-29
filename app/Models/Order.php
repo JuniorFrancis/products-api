@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-class Products extends Model
+class Order extends Model
 {
     public function __construct()
     {

@@ -12,6 +12,12 @@ abstract class Model
     {
         return $this->data;
     }
+
+    public function setData(array $data): array
+    {
+        $this->data->put('orders', $data);
+        return $this->data->all();
+    }
     
 }
 ?>
